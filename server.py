@@ -5,7 +5,6 @@ import mysql.connector
 from datetime import datetime
 import server_config
 
-
 class WiSign_Server:
     def __init__(self):
         self.connection = None
@@ -358,3 +357,4 @@ if __name__ == "__main__":
     #server = WiSign_Server()
 
     uvicorn.run(server.app, host="0.0.0.0", port=5000, reload=False)
+
