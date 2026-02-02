@@ -1645,4 +1645,6 @@ if __name__ == "__main__":
 	os.environ["XDG_RUNTIME_DIR"] = f"/run/user/{os.getpid()}"
 	app = QApplication(sys.argv)
 	test = GUI()
+
 	test.run()
+	
